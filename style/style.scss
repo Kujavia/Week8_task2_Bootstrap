@@ -1,0 +1,38 @@
+/** {
+  border: 2px red solid;
+}*/
+
+.navbar-collapse {
+  padding-left: 45vw;
+}
+.navbar-brand {
+  padding-left: 10vw;
+}
+.container-start {
+  margin-top: 5vh;
+  .col {
+    margin: 3vh 2vw 2vh 2vw;
+  }
+  .btn {
+    width: 200px;
+    margin-bottom: 4vh;
+  }
+}
+
+.container-block {
+  margin-top: 4vh;
+  .card {
+    height: 100%;
+  }
+}
+
+.text-height {
+  height: 95%;
+}
+
+.footer {
+  height: 10vh;
+  .nav {
+    padding-top: 2vh;
+  }
+}

@@ -8,168 +8,272 @@
       shrink-to-fit="no"
     />
     <link
-      href="./bootstrap-5.3.2-dist/css/bootstrap.min.css"
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
       rel="stylesheet"
+      integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
+      crossorigin="anonymous"
     />
+
     <link rel="stylesheet" href="./style/style.css" />
 
-    <title>Document</title>
+    <title>Юбилей</title>
   </head>
   <body>
     <header>
-      <nav class="navbar navbar-expand-lg bg-dark">
+      <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
         <div class="container-fluid">
-          <a class="navbar-brand text-white" href="#">Start Bootstrap</a>
+          <a class="navbar-brand" href="#">Комисарчук Виктор Иванович</a>
           <button
             class="navbar-toggler"
             type="button"
             data-bs-toggle="collapse"
-            data-bs-target="#navbarNav"
-            aria-controls="navbarNav"
+            data-bs-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent"
             aria-expanded="false"
-            aria-label="Переключатель навигации"
+            aria-label="Toggle navigation"
           >
             <span class="navbar-toggler-icon"></span>
           </button>
-          <div class="collapse navbar-collapse" id="navbarNav">
-            <ul class="navbar-nav">
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
               <li class="nav-item">
-                <a
-                  class="nav-link active text-white"
-                  aria-current="page"
-                  href="#"
-                  >Home</a
+                <a class="nav-link active" aria-current="page" href="index.html"
+                  >Главная</a
                 >
               </li>
               <li class="nav-item">
-                <a class="nav-link text-white-50" href="#">About</a>
+                <a class="nav-link" href="gallery.html">Галерея</a>
+              </li>
+              <li class="nav-item dropdown">
+                <a
+                  class="nav-link dropdown-toggle"
+                  href="#"
+                  id="navbarDropdown"
+                  role="button"
+                  data-bs-toggle="dropdown"
+                  aria-expanded="false"
+                >
+                  Библиография
+                </a>
+                <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                  <li><a class="dropdown-item" href="#">Книги</a></li>
+                  <li><a class="dropdown-item" href="#">Исследования</a></li>
+                  <li><hr class="dropdown-divider" /></li>
+                  <li>
+                    <a class="dropdown-item" href="genealogy.html"
+                      >Генеалогия</a
+                    >
+                  </li>
+                </ul>
               </li>
               <li class="nav-item">
-                <a class="nav-link text-white-50" href="#">Services</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link text-white-50 disabled">Contact</a>
+                <a
+                  class="nav-link"
+                  href="archive.html"
+                  tabindex="-1"
+                  aria-disabled="true"
+                  >Архив</a
+                >
               </li>
             </ul>
+            <form class="d-flex">
+              <input
+                class="form-control me-2"
+                type="search"
+                placeholder="Поиск"
+                aria-label="Поиск"
+              />
+              <button class="btn btn-outline-success" type="submit">
+                Поиск
+              </button>
+            </form>
           </div>
         </div>
       </nav>
+
+      <!-- конец -->
     </header>
     <!--Контейнер серый A Warm Welcome-->
+    <div class="Papa">Уважаемый и самый любимый Папа!</div>
     <div class="container container-start">
       <div class="row bg-secondary">
         <div class="col">
-          <h1 class="h1">A Warm Welcome</h1>
+          <h1 class="h1">ПОЗДРАВЛЯЕМ <br />С Днём Рождения!</h1>
 
-          <p>
-            Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean
-            commodo ligula eget dolor. Aenean massa. Cum sociis natoque
-            penatibus et magnis dis parturient montes, nascetur ridiculus mus.
-            Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem.
-            Nulla consequat massa quis enim. Donec pede justo, fringilla vel,
-            aliquet nec, vulputate eget, arcu. In enim justo, rhoncus ut,
-            imperdiet a, venenatis vitae, justo. Nullam dictum felis eu pede
-            mollis pretium. Integer tincidunt.
-          </p>
-          <button type="button" class="btn btn-primary btn-lg">
-            Call to action!
-          </button>
+          <div class="wish">
+            <p>Хотим поздравить с Днем рожденья!</p>
+            <p>Добра и счастья пожелать,</p>
+            <p>Удачи жизненной, везенья!</p>
+            <p>Невзгод же — вовсе не видать.</p>
+            <p>Здоровье чтоб не подводило,</p>
+            <p>Сопровождал весь путь успех,</p>
+            <p>Душа и тело молодело,</p>
+            <p>А в доме слышался лишь смех!</p>
+            <p>Желаем бодрости для тела,</p>
+            <p>Часов приятных — для души,</p>
+            <p>Рукам — уменья золотого,</p>
+            <p>И мудрых мыслей — для головы!</p>
+            <!-- <p>Футбольных матчей - чуть поближе</p> -->
+            <p></p>
+            <p>ОЧЕНЬ тебя любим!</p>
+          </div>
         </div>
       </div>
     </div>
 
     <!--Контейнер c карточкаим товаров-->
     <div class="container container-block">
-      <div class="row">
-        <div class="col container-block-col">
-          <div class="card" style="width: 18rem">
-            <img
-              src="./image/chat-tao-ngot-suckhoe.jpg"
-              class="card-img-top"
-              alt="..."
-            />
-            <div class="card-body d-flex flex-column align-items-center">
-              <div class="text-height">
-                <h5 class="card-title text-center">Card title</h5>
-                <p class="card-text text-center">
-                  Lorem ipsum dolor sit amet, consectetuer adipiscing elit.Donec
-                  quam felis, ultricies nec,
-                </p>
-              </div>
-              <div class="card-footer">
-                <a href="#" class="btn btn-primary">Перейти куда-нибудь</a>
-              </div>
-            </div>
-          </div>
+      <div
+        id="carouselExampleIndicators"
+        class="carousel slide"
+        data-bs-ride="carousel"
+      >
+        <div class="carousel-indicators">
+          <button
+            type="button"
+            data-bs-target="#carouselExampleIndicators"
+            data-bs-slide-to="0"
+            class="active"
+            aria-current="true"
+            aria-label="Slide 1"
+          ></button>
+          <button
+            type="button"
+            data-bs-target="#carouselExampleIndicators"
+            data-bs-slide-to="1"
+            aria-label="Slide 2"
+          ></button>
+          <button
+            type="button"
+            data-bs-target="#carouselExampleIndicators"
+            data-bs-slide-to="2"
+            aria-label="Slide 3"
+          ></button>
+          <button
+            type="button"
+            data-bs-target="#carouselExampleIndicators"
+            data-bs-slide-to="3"
+            aria-label="Slide 4"
+          ></button>
+               <button
+            type="button"
+            data-bs-target="#carouselExampleIndicators"
+            data-bs-slide-to="4"
+            aria-label="Slide 5"
+          ></button>
+                    <button
+            type="button"
+            data-bs-target="#carouselExampleIndicators"
+            data-bs-slide-to="5"
+            aria-label="Slide 6"
+          ></button>
+            <button
+            type="button"
+            data-bs-target="#carouselExampleIndicators"
+            data-bs-slide-to="6"
+            aria-label="Slide 7"
+          ></button>
+             <button
+            type="button"
+            data-bs-target="#carouselExampleIndicators"
+            data-bs-slide-to="7"
+            aria-label="Slide 8"
+          ></button>
+             <button
+            type="button"
+            data-bs-target="#carouselExampleIndicators"
+            data-bs-slide-to="8"
+            aria-label="Slide 9"
+          ></button>
+               <button
+            type="button"
+            data-bs-target="#carouselExampleIndicators"
+            data-bs-slide-to="9"
+            aria-label="Slide 10"
+          ></button>
         </div>
-
-        <div class="col container-block-col">
-          <div class="card" style="width: 18rem">
+        <div class="carousel-inner">
+          <div class="carousel-item active">
             <img
-              src="./image/chat-tao-ngot-suckhoe.jpg"
-              class="card-img-top"
-              alt="..."
+              src="./image/photo_2024-03-17_19-05-05.jpg"
+              class="d-block w-100"
+              alt="поздравление2"
             />
-            <div class="card-body d-flex flex-column align-items-center">
-              <div class="text-height">
-                <h5 class="card-title text-center">Card title</h5>
-                <p class="card-text text-center">
-                  Lorem ipsum dolor sit amet, consectetuer adipiscing elit.Donec
-                  quam felis, ultricies nec,Aenean massa. Cum sociis natoque
-                  penatibus
-                </p>
-              </div>
-              <div class="card-footer">
-                <a href="#" class="btn btn-primary">Перейти куда-нибудь</a>
-              </div>
-            </div>
           </div>
-        </div>
-
-        <div class="col container-block-col">
-          <div class="card" style="width: 18rem">
+          <div class="carousel-item">
             <img
-              src="./image/chat-tao-ngot-suckhoe.jpg"
-              class="card-img-top"
-              alt="..."
+              src="./image/photo_2024-03-17_19-04-30.jpg"
+              class="d-block w-100"
+              alt="поздравление3"
             />
-            <div class="card-body d-flex flex-column align-items-center">
-              <div class="text-height">
-                <h5 class="card-title text-center">Card title</h5>
-                <p class="card-text text-center">
-                  Lorem ipsum dolor sit amet, consectetuer adipiscing elit.Donec
-                  quam felis, ultricies nec,
-                </p>
-              </div>
-              <div class="card-footer">
-                <a href="#" class="btn btn-primary">Перейти куда-нибудь</a>
-              </div>
-            </div>
           </div>
-        </div>
-
-        <div class="col container-block-col">
-          <div class="card" style="width: 18rem">
+          <div class="carousel-item">
             <img
-              src="./image/chat-tao-ngot-suckhoe.jpg"
-              class="card-img-top"
-              alt="..."
+              src="./image/photo_2024-03-23_15-59-30.jpg"
+              class="d-block w-100"
+              alt="поздравление1"
             />
-            <div class="card-body d-flex flex-column align-items-center">
-              <div class="text-height">
-                <h5 class="card-title text-center">Card title</h5>
-                <p class="card-text text-center">
-                  Lorem ipsum dolor sit amet, consectetuer adipiscing elit.Donec
-                  quam felis, ultricies nec, Aenean massa. Cum sociis natoque
-                  penatibus
-                </p>
-              </div>
-              <div class="card-footer">
-                <a href="#" class="btn btn-primary">Перейти куда-нибудь</a>
-              </div>
-            </div>
           </div>
-        </div>
+          <div class="carousel-item">
+            <img
+              src="./image/photo_2024-03-23_15-58-33.jpg"
+              class="d-block w-100"
+              alt="поздравление4"
+            />
+          </div>
+          <div class="carousel-item">
+            <img
+              src="./image/photo_2024-03-23_15-59-17.jpg"
+              class="d-block w-100"
+              alt="поздравление5"
+            />
+          </div>
+          <div class="carousel-item">
+            <img
+              src="./image/photo_2024-03-23_15-59-22.jpg"
+              class="d-block w-100"
+              alt="поздравление6"
+            />
+          </div>
+              <div class="carousel-item">
+            <img
+              src="./image/photo_2024-03-23_15-59-46.jpg"
+              class="d-block w-100"
+              alt="поздравление7"
+            />
+          </div>
+          <div class="carousel-item">
+            <img
+              src="./image/photo_2024-03-23_15-59-37.jpg"
+              class="d-block w-100"
+              alt="поздравление8"
+            />
+          </div>
+           <div class="carousel-item">
+            <img
+              src="./image/photo_2024-03-23_15-59-50.jpg"
+              class="d-block w-100"
+              alt="поздравление9"
+            />
+          </div>
+        <button
+          class="carousel-control-prev"
+          type="button"
+          data-bs-target="#carouselExampleIndicators"
+          data-bs-slide="prev"
+        >
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button
+          class="carousel-control-next"
+          type="button"
+          data-bs-target="#carouselExampleIndicators"
+          data-bs-slide="next"
+        >
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
       </div>
     </div>
 
@@ -177,13 +281,13 @@
     <footer class="footer bg-dark">
       <ul class="nav justify-content-center">
         <li class="nav-item">
-          <a class="nav-link active" aria-current="page" href="#">Active</a>
+          <a class="nav-link active" aria-current="page" href="#">26.03.2024</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="#">Copyright &copy; Wildcherry 2024 </a>
+          <a class="nav-link" href="#">OLesiaAverina </a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="#">Contact</a>
+          <a class="nav-link" href="#">8-988-254-26-77</a>
         </li>
         <li class="nav-item">
           <a
@@ -197,6 +301,10 @@
       </ul>
     </footer>
 
-    <script src="./bootstrap-5.3.2-dist/js/bootstrap.min.js"></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+      crossorigin="anonymous"
+    ></script>
   </body>
 </html>

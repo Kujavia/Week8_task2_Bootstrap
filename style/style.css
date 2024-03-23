@@ -1,12 +1,9 @@
 /** {
   border: 2px red solid;
 }*/
-.navbar-collapse {
-  padding-left: 45vw;
-}
 
-.navbar-brand {
-  padding-left: 10vw;
+.navbar-collapse {
+  padding-left: 20vw;
 }
 
 .container-start {
@@ -36,4 +33,64 @@
 }
 .footer .nav {
   padding-top: 2vh;
-}/*# sourceMappingURL=style.css.map */
+} /*# sourceMappingURL=style.css.map */
+.wish p {
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-size: 2vw;
+  text-align: center;
+  color: rgb(29, 27, 28);
+  margin-bottom: 0;
+}
+.h1 {
+  color: rgb(130, 4, 4);
+  font-size: 3vw;
+  text-align: center;
+}
+.Papa {
+  padding-top: 4%;
+  padding-bottom: 0px;
+  text-align: center;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande',
+    'Lucida Sans', Arial, sans-serif;
+  font-size: 3vw;
+}
+
+.tree {
+  display: flex;
+  width: 90%;
+  justify-content: center;
+  align-items: center;
+  margin: 2%;
+}
+h3 {
+  text-align: center;
+  padding-top: 1%;
+}
+.navbar-brand:hover {
+  background-color: gold;
+  border-radius: 10px;
+}
+.nav-link:hover {
+  background-color: blueviolet;
+  border-radius: 10px;
+}
+.gal {
+  display: grid;
+  margin: 5%;
+  grid-template-columns: 1fr 1fr;
+}
+.gal1 {
+  width: 80%;
+
+  padding: 3%;
+}
+.Papa:hover {
+  background-color: gold;
+  border-radius: 10px;
+  padding: 30px;
+}
+.col:hover {
+  background-color: rgb(121, 180, 238);
+  border-radius: 10px;
+  padding: 20px;
+}
